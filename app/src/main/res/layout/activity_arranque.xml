@@ -7,6 +7,14 @@
     tools:context=".Arranque"
     android:background="#E9E2BC">
 
+    <View
+        android:id="@+id/gradientSplash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient"
+        android:alpha="0.5"
+        />
+
     <ImageView
         android:id="@+id/logo"
         android:layout_width="178dp"
@@ -44,14 +52,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.25" />
+        app:layout_constraintGuide_percent="0.2" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.75" />
+        app:layout_constraintGuide_percent="0.7" />
 
     <TextView
         android:id="@+id/appName"
