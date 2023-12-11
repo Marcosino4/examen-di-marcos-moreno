@@ -16,11 +16,17 @@
             android:name=".Registro"
             android:exported="false" />
         <activity
-            android:name=".Acceso"
-            android:exported="false" />
-        <activity
             android:name=".Arranque"
-            android:exported="false" />
+            android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.marcosmoreno.Acceso"
+            android:exported="true"></activity>
     </application>
 
 </manifest>
