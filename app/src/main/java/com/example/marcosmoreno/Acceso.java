@@ -48,9 +48,9 @@ public class Acceso extends AppCompatActivity {
                 pairs[1] = new Pair<View, String>(appName, "appName");
                 pairs[2] = new Pair<View, String>(username, "username");
                 pairs[3] = new Pair<View, String>(password, "password");
-                pairs[4] = new Pair<View, String>(remember, "rememberBox");
+                pairs[4] = new Pair<View, String>(remember, "remember");
                 pairs[5] = new Pair<View, String>(gotAccount, "gotAccount");
-                pairs[6] = new Pair<View, String>(enterButton, "enterButton");
+                pairs[6] = new Pair<View, String>(enterButton, "LogIn");
                 pairs[7] = new Pair<View, String>(forgotPassword, "forgotPassword");
 
 
